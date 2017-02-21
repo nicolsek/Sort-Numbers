@@ -37,7 +37,6 @@ func orderNumbers(nums []int) []int {
 		for i := 1; i < len(nums) && i+1 < len(nums)+1; i++ {
 			if nums[i-1] > nums[i] {
 				swap(nums, i-1, i)
-				fmt.Printf("Swapping Postion [%v] & [%v]...\n", i, i-1)
 			}
 		}
 	}
