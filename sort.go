@@ -23,7 +23,7 @@ func main() {
 	nums := orderNumbers(getArgs())
 	fmt.Printf("\nOrdered Numbers: %v\n", nums)
 	elapsed := time.Since(start)
-	fmt.Printf("\nSort Took %v"+"'s", elapsed)
+	fmt.Printf("\nSort Took %v", elapsed)
 }
 
 // orderNumbers ... Uses the Selection Sort algorithm to sort an array of numbers from lowest to highest.
